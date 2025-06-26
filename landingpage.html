@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Become a Full Stack Developer</title>
+  <link rel="stylesheet" href="land.css">
+</head>
+<body>
+
+  <header>
+    <h1>Become a Full Stack Developer</h1>
+    <p>Master frontend & backend development — HTML, CSS, JS, React, Node.js & more — in just 6 weeks with real-world projects.</p>
+    <button class="cta-button" onclick="toggleForm()">Enroll Now</button>
+
+    <div class="form-container" id="signupForm">
+      <h2>Sign Up Now</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">What You'll Learn</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🌐 Frontend Skills</h3>
+        <p>HTML, CSS, JavaScript, React — build stunning user interfaces and responsive websites.</p>
+      </div>
+      <div class="feature">
+        <h3>🖥️ Backend Power</h3>
+        <p>Master Node.js, Express, MongoDB — build APIs and server-side apps like a pro.</p>
+      </div>
+      <div class="feature">
+        <h3>🚀 Career Boost</h3>
+        <p>Get resume help, interview prep, portfolio projects, and a certificate on completion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2>Start Your Developer Journey Today</h2>
+    <button onclick="toggleForm()">Join the Bootcamp</button>
+  </section>
+
+  <footer>
+    <p>© 2025 DevLaunch Academy | All rights reserved</p>
+  </footer>
+
+  <script>
+    function toggleForm() {
+      const form = document.getElementById('signupForm');
+      form.style.display = form.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
+
